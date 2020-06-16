@@ -5,7 +5,6 @@ import requests,random,json,time,sys,os,re
 # Update
 # Recode!, dosa Tanggung Sendiri
 # Thanks For God
-# Underground
 # ---------------------------------------------------------------
 
 # -----------------------WARNA----------------------------
@@ -109,7 +108,7 @@ class spam:
 # ---------------------------Fungsi----------------------------
 def apakah():
 	while True:
-		lan=str(input(k+'\tWant more? y/n : '+h))
+		lan=str(input(k+'\tBelum Puas? y/n : '+h))
 		if( lan == 'y' or lan == 'Y'):
 			jnspam()
 		elif(lan == 'n' or lan == 'N'):
